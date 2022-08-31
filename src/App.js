@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import data from './data'
 import SingleQuestion from './Questions'
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 
 function App() {
   const [questions, setQuestions] = useState(data)
